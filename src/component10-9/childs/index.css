@@ -1,0 +1,56 @@
+.border {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.head {
+	width: 1000px;
+	height: 80px;
+	background: rgb(0, 0, 102);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.btn {
+	width: 100px;
+	height: 40px;
+	background: rgb(22, 155, 213);
+	border: none;
+	color: #fff;
+	font-weight: 600;
+	font-size: 18px;
+	border-radius: 3px;
+}
+
+.main {
+	width: 1000px;
+	height: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.conDiv {
+	width: 250px;
+	height: 450px;
+	background: rgb(0, 150, 150);
+	color: #fff;
+	text-align: center;
+	line-height: 450px;
+	font-weight: 600;
+	font-size: 22px;
+}
+
+.footer {
+	width: 1000px;
+	height: 80px;
+	background: rgb(0, 102, 255);
+	text-align: center;
+	line-height: 80px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+}
