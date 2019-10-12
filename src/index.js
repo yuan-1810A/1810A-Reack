@@ -1,10 +1,10 @@
 // 引入react
 import React from 'react';
 // 引入全局css样式
-import './10-10晚自习作业/index.css';
+// import './10-10晚自习作业/index.css';
 import ReactDOM from 'react-dom';
 // 引入主文件渲染页面
-import App from './10-10晚自习作业/index';
+import App from './10-12/fixed/index';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render( < App / > , document.getElementById('root'));
