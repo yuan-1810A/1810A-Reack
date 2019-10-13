@@ -1,10 +1,9 @@
-
 .fixed {
     display: flex;
     background: #FAF9F9;
     padding: 2px;
     height: 25px;
-    width: 100%;
+    width: 1190px;
     margin: auto;
     font-size: 12px;
     color: #806f66;
@@ -21,9 +20,11 @@
     background: white;
 
 }
-.red{
+
+.red {
     color: red;
 }
+
 .site {
     display: flex;
     width: 150px;
@@ -66,12 +67,19 @@
     background: #F7F5F5;
 
 }
-.new{
+
+.new {
     color: #000;
 }
+
+label {
+    padding-top: 3px;
+}
+
 .inp {
     width: 15px;
     height: 15px;
+    vertical-align: middle;
 }
 
 .fM_con {
@@ -136,18 +144,21 @@
     line-height: 22px;
     padding: 0 10px 0 20px;
 }
-.right{
-    margin-left: 270px;
+
+.right {
+    margin-left: 170px;
     display: flex;
 }
-.right_1{
+
+.right_1 {
     width: 20px;
     height: 20px;
     text-align: center;
     margin-left: 5px;
     line-height: 20px;
 }
-.gray{
+
+.gray {
     background: #EFEFEF;
     transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
@@ -155,6 +166,7 @@
     -ms-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
 }
-.fff{
+
+.fff {
     background: #fff;
 }

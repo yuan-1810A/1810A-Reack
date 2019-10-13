@@ -40,7 +40,6 @@ export default class Index extends React.Component {
                         <div className='right_1 fff'> > </div>
                     </div>
                 </div>
-                <p style={{ height: '2000px' }}>11</p>
 
             </React.Fragment>
         )
