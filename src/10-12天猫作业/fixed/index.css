@@ -8,6 +8,7 @@
     font-size: 12px;
     color: #806f66;
     position: sticky;
+    z-index: 999999999;
     top: 0px;
 }
 
