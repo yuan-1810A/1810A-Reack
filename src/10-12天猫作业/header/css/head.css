@@ -3,7 +3,8 @@
 	padding: 0;
 }
 
-a {
+a,
+span {
 	text-decoration: none;
 	font-size: 12px;
 	color: rgb(150, 150, 150);
@@ -17,7 +18,6 @@ li {
 
 .flex {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -26,6 +26,7 @@ li {
 	width: 100%;
 	height: 320px;
 	overflow: hidden;
+	margin-bottom: 15px;
 }
 
 .top-con-top {
@@ -44,7 +45,7 @@ li {
 	width: 530px;
 	height: 30px;
 	margin-right: 40px;
-	border: 1px #000 solid;
+	position: relative;
 }
 
 .header-top-fang {
@@ -61,4 +62,262 @@ li {
 a:hover {
 	color: rgb(255, 0, 50);
 	text-decoration: underline;
+}
+
+.header-top-border {
+	width: 20px;
+	color: rgb(200, 200, 200);
+	position: absolute;
+	top: 6px;
+	left: 235px;
+}
+
+.hedaer-xia {
+	background: url(../img/3.png);
+	background-size: 100%;
+	background-position: 0 2px;
+}
+
+.header-gouwu {
+	background: url(../img/4.png) no-repeat;
+	background-size: 100%;
+	background-position: 0 0;
+}
+
+.textSize {
+	color: #666;
+	padding: 0 2px;
+	font-weight: 700;
+	font-family: Arial;
+}
+
+.header-logo-shouji {
+	background: url(../img/5.png) no-repeat;
+	background-size: 100%;
+	background-position: 0 -2px;
+}
+
+.header-logo-list {
+	background: url(../img/6.png) no-repeat;
+	background-size: 133%;
+	background-position: -2px -5px;
+}
+
+.header-con {
+	width: 1190px;
+	height: 92px;
+	margin: 0 auto;
+}
+
+.mallogo {
+	float: left;
+	z-index: 9;
+	padding-top: 28px;
+	width: 280px;
+	height: 64px;
+	line-height: 64px;
+	position: relative;
+}
+
+.header-con-logo {
+	background: url(https://img.alicdn.com/tps/TB1lksaIpXXXXcrXFXXXXXXXXXX.png) no-repeat;
+	width: 145px;
+	height: 44px;
+	display: block;
+}
+
+.header-con-right {
+	width: 597px;
+	height: 56px;
+	margin-right: 320px;
+	margin-top: 20px;
+}
+
+.header-con-right-top {
+	width: 100%;
+	height: 40px;
+}
+
+.header-ul-width {
+	width: 350px;
+}
+
+.header-input {
+	color: #000;
+	margin: 0;
+	z-index: 2;
+	width: 490px;
+	height: 20px;
+	line-height: 20px;
+	padding: 5px 3px 5px 5px;
+	outline: 0;
+	font-weight: 900;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	border: rgb(40, 110, 200) 2px solid;
+}
+
+.header-button {
+	width: 92px;
+	height: 34px;
+	border: rgb(40, 110, 200) 2px solid;
+	color: aliceblue;
+	font-size: 18px;
+	text-align: center;
+	line-height: 30px;
+	background: rgb(40, 110, 200);
+}
+
+.header-bottom {
+	width: 1190px;
+	height: 180px;
+	margin: 10px auto;
+}
+
+.header-bottom-h1 {
+	width: 1190px;
+	height: 35px;
+	border-bottom: rgb(15, 100, 200) solid 1px;
+}
+
+.header-bottom-ul {
+	width: 310px;
+	height: 36px;
+	padding-left: 20px;
+}
+
+.right-li {
+	border-right: 2px #e0e0e0 solid !important;
+}
+
+.header-bottom-a {
+	display: block;
+	padding: 0 10px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 36px;
+	color: #333;
+	text-decoration: none;
+}
+
+.header-bottom-a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+.header-bottom-ss {
+	width: 1190px;
+	height: 38px;
+}
+
+.header-bottom-ss-left {
+	width: 230px;
+	height: 21px;
+	margin-left: 26px;
+	color: #666;
+	font-size: 14px;
+	position: relative;
+	padding-left: 9px;
+}
+
+.header-bottom-ss-right {
+	color: #666;
+	font-size: 13px;
+	margin-right: 5px;
+}
+
+.header-bottom-ss-right-span {
+	margin: 0 5px;
+}
+
+.header-bottom-input {
+	width: 130px;
+	padding: 2px 10px;
+	margin-left: 5px;
+	font-size: 12px;
+}
+
+.header-bottom-i {
+	width: 15px;
+	height: 14px;
+	background: url('https://gtms02.alicdn.com/tps/i2/T186tKFDR_XXaYpYLe-35-30.png');
+	background-position: 0 0;
+	position: absolute;
+	display: block;
+	top: 5px;
+	left: 178px;
+}
+
+.header-bottom-xuanxiang {
+	width: 1186px;
+	height: 65px;
+	border: 3px solid rgb(210, 210, 210);
+	margin-top: 5px;
+}
+
+.header-bottom-xx-left {
+	width: 108px;
+	height: 80%;
+	background: rgb(245, 245, 245);
+	padding: 12px 0 0 10px;
+	color: #666;
+	font-size: 12px;
+}
+
+.header-bottom-logo-ul {
+	width: 740px;
+	height: 60px;
+	margin-right: 150px;
+}
+
+.header-bottom-logo-ul>li {
+	padding: 6px 12px;
+	border: 2px #e0e0e0 solid;
+	box-sizing: border-box;
+	border-right: #fff 2px solid;
+}
+
+.header-bottom-logo-ul>li:hover {
+	border: 2px rgb(255, 0, 54) solid !important;
+	box-sizing: border-box;
+}
+
+.header-gengduo {
+	width: 125px;
+	height: 100%;
+	position: relative;
+}
+
+.header-rader {
+	width: 45px;
+	height: 15px;
+	font-size: 12px;
+	background: rgb(245, 245, 245);
+	margin: 10px 0 0 25px;
+	text-align: center;
+	line-height: 15px;
+}
+
+.header-rader-gd {
+	font-size: 12px;
+	position: absolute;
+	top: 10px;
+	right: 16px;
+	color: #666;
+}
+
+.header-rader-bottom {
+	width: 100%;
+	height: 35px;
+	border-bottom: 2px #e0e0e0 solid;
+	border-left: 1px #e0e0e0 solid;
+	border-right: 1px #e0e0e0 solid;
+	position: relative;
+}
+
+.header-span-position {
+	position: absolute;
+	top: 10px;
+	left: 150px;
 }
